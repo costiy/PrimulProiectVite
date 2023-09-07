@@ -7,10 +7,10 @@ const Titlu = () => {
 
 const Poze = () => {
   return (<div>
-  <img src = "fortnutavatar.png"></img>
-  <img src = "HappyCAT.jpg"></img>
-  <img src = "LamaGermanaAVATAR.jpg"></img>
-  <img src = "PASTOASOMUIE.png"></img>
+  <img src = "fortnutavatar.png" width = "200" height = "200"></img>
+  <img src = "HappyCAT.jpg" width = "200" height = "200"></img>
+  <img src = "LamaGermanaAVATAR.jpg" width = "200" height = "200"></img>
+  <img src = "PASTOASOMUIE.png" width = "200" height = "200"></img>
   </div>)
 };
 
