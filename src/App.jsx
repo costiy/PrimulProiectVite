@@ -14,10 +14,18 @@ const Poze = () => {
   </div>)
 };
 
+const Reminder = (props) => {
+  const { nume } = props;
+  return <h1>Salut, noi am ajutat la acest site {nume}</h1>;
+};
+
 function App() {
   return (<center><div>
     <Titlu/>
     <Poze/>
+  </div>
+  <div>
+    <Reminder nume = {"Vite + React = <3"}/>
   </div>
   </center>)
 };
